@@ -6,7 +6,6 @@ body {
 	max-width: 700px;
 	min-height: 100vh;
 	padding: 4rem;
-	text-align: center;
 	background: linear-gradient(#808080, #3fada8);	
 }
 
@@ -15,7 +14,7 @@ h1 {
 	font-family: 'Londrina Shadow';
 	font-size: 5rem;
 	margin: 40px 0;
-
+	text-align: center;
 }
 
 ul {
@@ -24,6 +23,8 @@ ul {
 
 ul li {
 	padding: 1rem 0;
+	position: relative;
+	left: 150px;
 }
 
 .done {
@@ -33,11 +34,12 @@ ul li {
 input {
 	padding: 15px;
 	width: 400px;
+	font-size: 1.3rem;
 }
 
 button {
 	padding: 15px;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	color: white;
 	background: rgb(248, 50, 50);
 }
